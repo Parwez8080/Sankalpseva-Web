@@ -609,6 +609,11 @@ span
         padding-bottom: 7rem;
     }
 
+    .director
+    {
+        padding-bottom: 7rem;
+    }
+
     .contact
     {
         min-height: auto;
@@ -674,17 +679,6 @@ span
         margin-top: 4rem;
     }
 
-    .about 
-    {
-        flex-direction: column-reverse;
-    }
-
-    .about img
-    {
-        width: 70vh;
-        margin-top: 4rem;
-    }
-
     .services h2 
     {
         margin-bottom: 3rem;
@@ -699,6 +693,16 @@ span
     {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .director h2
+    {
+        margin-bottom: 3rem;
+    }
+
+    .director-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 617px)
@@ -708,9 +712,9 @@ span
         grid-template-columns: 1fr;
     }
 
-    .about-img img 
+    . director-container
     {
-        width: 90vw;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -719,11 +723,6 @@ span
     html 
     {
         font-size: 50%;
-    }
-
-    .about-img img
-    {
-        width: 90vw;
     }
 
     .contact form .input-box input 
@@ -735,11 +734,6 @@ span
 @media (max-width:365px)
 {
     .home-img img 
-    {
-        width: 90vw;
-    }
-
-    .about-img img 
     {
         width: 90vw;
     }
